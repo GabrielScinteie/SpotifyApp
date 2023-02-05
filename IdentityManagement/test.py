@@ -1,0 +1,13 @@
+# python -m pip install suds
+from suds.client import Client
+c = Client('http://localhost:7999/?wsdl')
+
+print(c.service.login("Delia", "parola"))
+print(c.service.login("Ioana", "parola"))
+#print(c.service.authorize("eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAiLCJzdWIiOiIzIiwicGFzcyI6LTEyNjQ5OTE1MjU2Njc0ODY4NjUsInJvbGUiOiJjbGllbnR8fCIsImV4cCI6MTY3NTE2ODk5MiwianRpIjoiMmFjZTNiMjgtOTk4OS0xMWVkLWFmM2EtOGZmMzY1YTUxMWFkIn0.Y2gcQqNfwrvrd6PPA5y42uX_plexeepYKx2I-9qwLWE"))
+
+# Content manager - Ioana
+# eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAiLCJzdWIiOiI0IiwicGFzcyI6NzkxOTU5OTMzOTYwNDU1MDM5MCwicm9sZSI6ImNvbnRlbnQgbWFuYWdlcnx8IiwiZXhwIjoxNjc0MzkwMTg1LCJqdGkiOiI1YjA5YjkxZS05OTg2LTExZWQtYWYzYS04ZmYzNjVhNTExYWQifQ.Mzr8mpHbj1CGJ30Hkzu_dFOcLVKrsyzPfv-9LOptSG8
+
+# Client - Delia
+# eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAiLCJzdWIiOiIzIiwicGFzcyI6LTEyNjQ5OTE1MjU2Njc0ODY4NjUsInJvbGUiOiJjbGllbnR8fCIsImV4cCI6MTY3NTE2ODk5MiwianRpIjoiMmFjZTNiMjgtOTk4OS0xMWVkLWFmM2EtOGZmMzY1YTUxMWFkIn0.Y2gcQqNfwrvrd6PPA5y42uX_plexeepYKx2I-9qwLWE

@@ -1,0 +1,26 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    height: 50px;
+  }
+  
+  
+  .navbar-links {
+    margin-right: 10px;
+  }
+  
+  .navbar-links a {
+    color: white;
+    text-decoration: none;
+    padding: 0 20px;
+    font-size: 16px;
+  }
+  
+  .navbar-links a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .playlists-container {
+    padding: 20px;
+  }
+  

@@ -1,0 +1,39 @@
+body {
+  background-color: #1c2331;
+  color: #ffffff;
+}
+h1 {
+  color: #ffcc00;
+}
+h2 {
+  color: #ffffff;
+}
+ul {
+  color: #ffffff;
+
+}
+li {
+  margin-top: 10px;
+  color: #ffffff;
+}
+button {
+  background-color: #ffffff;
+  color: #1c2331;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+button:hover {
+  background-color: #ffcc00;
+  color: #1c2331;
+}
+select {
+  background-color: #1c2331;
+  color: #ffffff;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
